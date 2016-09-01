@@ -1,4 +1,6 @@
 # Based on https://github.com/clementine-player/Clementine/wiki/Compiling-from-Source-(Windows)
+# TODO Test more current Ubuntu releases
+# TODO Test building on 64 bit system
 FROM daald/ubuntu32:precise
 
 RUN apt-get update && apt-get install -y yasm cmake qt4-dev-tools stow unzip autoconf libtool \
