@@ -23,10 +23,6 @@ ENV PATH $PATH:/mingw/bin
 # TODO Why make everything in /root executable??
 RUN chmod +rx /root
 
-# FIXME Not possible inside docker
-#RUN mount binfmt_misc -t binfmt_misc /proc/sys/fs/binfmt_misc
-#RUN echo ':DOSWin:M::MZ::/usr/bin/wine:' > /proc/sys/fs/binfmt_misc/register
-
 RUN mkdir /usr/i586-mingw32msvc && \
     ln -s /usr/i586-mingw32msvc /target && \
     mkdir /src /target/stow /target/bin
