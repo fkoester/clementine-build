@@ -1,0 +1,13 @@
+gst-plugins-base-1.5.2/gst-libs/Makefile.am
+cd gst-plugins-base-1.5.2 && patch -p0 < ../patches/gst-plugins-base-01-format.patch
+patching file gst-libs/gst/video/video-dither.c
+cd gst-plugins-base-1.5.2 && autoreconf
+configure.ac:1: error: Autoconf version 2.69 or higher is required
+configure.ac:1: the top level
+autom4te: /usr/bin/m4 failed with exit status: 63
+aclocal: /usr/bin/autom4te failed with exit status: 63
+autoreconf: aclocal failed with exit status: 63
+make[1]: *** [.done-gst-plugins-base] Error 63
+make[1]: Leaving directory `/src/windows'
+make: *** [all] Error 2
+

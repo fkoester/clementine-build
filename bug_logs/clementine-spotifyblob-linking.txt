@@ -1,0 +1,39 @@
+[ 98%] Building CXX object ext/clementine-spotifyblob/CMakeFiles/clementine-spotifyblob.dir/moc_spotifyclient.cxx.obj
+[ 98%] Linking CXX executable ../../clementine-spotifyblob.exe
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x3f7): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x449): undefined reference to `QString::split(QChar const&, QString::SplitBehavior, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x6ff): undefined reference to `qInstallMsgHandler(void (*)(QtMsgType, char const*))'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x79d): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x7ce): undefined reference to `QString::split(QChar const&, QString::SplitBehavior, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x82e): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x85f): undefined reference to `QString::split(QChar const&, QString::SplitBehavior, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xaf1): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xb1b): undefined reference to `QString::indexOf(QChar, int, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xb6a): undefined reference to `QString::lastIndexOf(QString const&, int, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xb9e): undefined reference to `QString::left(int) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xbdc): undefined reference to `QString::left(int) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xc12): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xc3c): undefined reference to `QString::lastIndexOf(QChar, int, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xc71): undefined reference to `QString::mid(int, int) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xe5d): undefined reference to `QString::number(int, int)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xf3e): undefined reference to `QString::leftJustified(int, QChar, bool) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xfa1): undefined reference to `QDateTime::currentDateTime()'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0xfc2): undefined reference to `QDateTime::toString(QString const&) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1078): undefined reference to `QDateTime::~QDateTime()'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x115c): undefined reference to `QDateTime::~QDateTime()'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x13e5): undefined reference to `QChar::QChar(char)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1416): undefined reference to `QString::split(QChar const&, QString::SplitBehavior, Qt::CaseSensitivity) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1564): undefined reference to `QRegExp::QRegExp(QString const&, Qt::CaseSensitivity, QRegExp::PatternSyntax)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x15d3): undefined reference to `QRegExp::cap(int)'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1604): undefined reference to `QRegExp::~QRegExp()'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x163a): undefined reference to `QRegExp::~QRegExp()'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1a41): undefined reference to `QString::arg(long long, int, int, QChar const&) const'
+../libclementine-common/liblibclementine-common.a(logging.cpp.obj):logging.cpp:(.text+0x1a71): undefined reference to `QString::arg(QString const&, int, QChar const&) const'
+/mingw/bin/../lib/gcc/i686-w64-mingw32/4.9.0/../../../../i686-w64-mingw32/bin/ld: ../libclementine-common/liblibclementine-common.a(logging.cpp.obj): bad reloc address 0x4 in section `.data'
+collect2: error: ld returned 1 exit status
+ext/clementine-spotifyblob/CMakeFiles/clementine-spotifyblob.dir/build.make:217: recipe for target 'clementine-spotifyblob.exe' failed
+CMakeFiles/Makefile2:2803: recipe for target 'ext/clementine-spotifyblob/CMakeFiles/clementine-spotifyblob.dir/all' failed
+make[2]: *** [clementine-spotifyblob.exe] Error 1
+make[1]: *** [ext/clementine-spotifyblob/CMakeFiles/clementine-spotifyblob.dir/all] Error 2
+Makefile:127: recipe for target 'all' failed
+make: *** [all] Error 2

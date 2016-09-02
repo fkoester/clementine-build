@@ -1,2 +1,4 @@
 clementine-build:
   build: .
+  volumes:
+    - ./output/:/output/
