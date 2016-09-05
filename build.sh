@@ -1,2 +1,3 @@
 #! /bin/bash
-docker-compose run clementine-build $@
+docker-compose build
+docker-compose run --rm clementine-build $@
